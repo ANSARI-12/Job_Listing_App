@@ -8,13 +8,8 @@ function JobCard({ job }) {
       <h2 className="text-lg font-semibold mb-1">{job.title}</h2>
 
       <p className="text-sm flex items-center gap-2">
-        {/* Company (Dark) */}
         <span className="text-gray-700 font-medium">{job.company}</span>
-
-        {/* Star in Center */}
         <span className="text-gray-700 pt-1.5 font-bold">*</span>
-
-        {/* Location (Light) */}
         <span className="text-gray-600 font-medium">{job.location}</span>
       </p>
 
