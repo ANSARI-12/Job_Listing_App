@@ -87,17 +87,13 @@ job-listing-app/
 
 ---
 
-## 🌐 Deployment
+## 🌐 Live Demo
 
-The project can be deployed using platforms like **Vercel** or **Netlify**.
+The application is deployed on Vercel and accessible here:
 
-Steps:
+👉 https://job-listing-app-hazel.vercel.app
 
-1. Push code to GitHub
-2. Connect repo to Vercel
-3. Auto deploy
-
-(Replace deploy link if available.)
+You can open the link to browse jobs, test search functionality, and apply filters in real time.
 
 ---
 
