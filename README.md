@@ -1,69 +1,73 @@
 # Job Listing App
 
-A React-based job listing application built with Vite, featuring job search, filtering by location and type, and a responsive design.
+A simple Job Listing web application built using **React + Vite**.
+This project allows users to browse job opportunities, search by title, and filter results based on location and job type.
 
-## Features
+The goal of this assignment is to demonstrate frontend fundamentals such as component structure, state management, filtering logic, and responsive UI design.
 
-- Search jobs by title
-- Filter jobs by location (All, Remote, On-site, Hybrid)
-- Filter jobs by type (All, Internship, Full-time)
-- Responsive grid layout for job cards
-- Built with React and Vite for fast development
+---
 
-## Getting Started
+## 🚀 Features
+
+- Display job cards with title, company, location, and type
+- Search jobs by title (real-time)
+- Filter by location (Remote / On-site / Hybrid)
+- Filter by job type (Internship / Full-time)
+- Responsive grid layout (mobile friendly)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – UI library
+- **Vite** – Fast build tool
+- **Tailwind CSS** – Styling
+- **JavaScript (ES6)** – Logic & filtering
+
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+Make sure you have installed:
+
+- Node.js (v14 or above)
 - npm or yarn
 
-### Installation
+---
 
-1. Clone the repository:
+### Installation & Setup
 
-   ```bash
-   git clone <repository-url>
-   cd job-listing-app
-   ```
+1. Install dependencies
 
-2. Install dependencies:
+```bash
+npm install
+```
 
-   ```bash
-   npm install
-   ```
+2. Run development server
 
-3. Start the development server:
+```bash
+npm run dev
+```
 
-   ```bash
-   npm run dev
-   ```
+3. Open browser
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+```
+http://localhost:5173
+```
 
-### Build for Production
+---
+
+## 🏗️ Build for Production
 
 ```bash
 npm run build
 ```
 
-## Deployment
+---
 
-This app is deployed on Vercel. You can view the live version here: [Vercel Deploy Link](https://your-vercel-deploy-link.vercel.app)
-
-To deploy your own version:
-
-1. Push your code to a Git repository (e.g., GitHub).
-2. Connect your repository to Vercel.
-3. Vercel will automatically build and deploy your app.
-
-## Technologies Used
-
-- React
-- Vite
-- Tailwind CSS (for styling)
-- ESLint (for code linting)
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 job-listing-app/
@@ -81,10 +85,34 @@ job-listing-app/
 └── vite.config.js
 ```
 
-## Contributing
+---
 
-Feel free to submit issues and pull requests.
+## 🌐 Deployment
 
-## License
+The project can be deployed using platforms like **Vercel** or **Netlify**.
 
-This project is licensed under the MIT License.
+Steps:
+
+1. Push code to GitHub
+2. Connect repo to Vercel
+3. Auto deploy
+
+(Replace deploy link if available.)
+
+---
+
+## 📌 Assumptions & Improvements
+
+If given more time, the following improvements can be added:
+
+- Backend API integration
+- Job details page
+- Apply job functionality
+- Pagination / Load more
+- Advanced filters (salary, experience)
+
+---
+
+## 📄 License
+
+This project is created for learning and assignment purposes.
